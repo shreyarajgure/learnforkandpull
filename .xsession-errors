@@ -1,0 +1,134 @@
+Xsession: X session started for rajgureshreyagm at Sat Jun  4 05:41:00 UTC 2022
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1002/bus
+dbus-update-activation-environment: setting DISPLAY=:10.0
+localuser:rajgureshreyagm being added to access control list
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting USER=rajgureshreyagm
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting HOME=/home/rajgureshreyagm
+dbus-update-activation-environment: setting XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_10
+dbus-update-activation-environment: setting XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_10
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1002/bus
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LOGNAME=rajgureshreyagm
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/run/xrdp/sockdir
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1002
+dbus-update-activation-environment: setting DISPLAY=:10.0
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting UID=1002
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1002/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/rajgureshreyagm
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+/bin/x-session-manager: X server already running on display :10.0
+/usr/bin/iceauth:  creating new authority file /run/user/1002/ICEauthority
+xfce4-session-Message: 05:41:04.968: SSH authentication agent is already running
+gpg-agent[3694]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:3547): xfce4-session-WARNING **: 05:41:04.974: gpg-agent returned no PID in the variables
+
+(xfce4-session:3547): xfce4-session-WARNING **: 05:41:04.975: xfsm_manager_load_session: Something wrong with /home/rajgureshreyagm/.cache/sessions/xfce4-session-ip-172-31-27-93:10, Does it exist? Permissions issue?
+
+(xfwm4:3697): GLib-CRITICAL **: 05:41:05.207: g_str_has_prefix: assertion 'prefix != NULL' failed
+
+(xfwm4:3697): xfwm4-WARNING **: 05:41:06.085: Another compositing manager is running on screen 0
+
+(xfsettingsd:3715): GLib-CRITICAL **: 05:41:06.243: g_str_has_prefix: assertion 'prefix != NULL' failed
+
+(xfsettingsd:3715): GLib-GObject-CRITICAL **: 05:41:06.246: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+
+(xfsettingsd:3715): GLib-GObject-CRITICAL **: 05:41:06.247: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+Geolocation service not in use
+
+** (xiccd:3780): WARNING **: 05:41:07.821: EDID is empty
+
+** (xiccd:3780): CRITICAL **: 05:41:07.831: failed to create colord device: failed to obtain org.freedesktop.color-manager.create-device auth
+xfce4-panel-Message: 05:41:08.078: Plugin "statusnotifier-7" was not found and has been removed from the configuration
+xfce4-panel-Message: 05:41:08.081: Plugin "power-manager-plugin-9" was not found and has been removed from the configuration
+
+** (light-locker:3773): ERROR **: 05:41:08.085: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(wrapper-2.0:3802): GLib-GIO-CRITICAL **: 05:41:08.443: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:3802): GLib-GIO-CRITICAL **: 05:41:08.443: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:3802): GLib-GObject-WARNING **: 05:41:08.443: invalid (NULL) pointer instance
+
+(wrapper-2.0:3802): GLib-GObject-CRITICAL **: 05:41:08.443: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:3802): Gtk-WARNING **: 05:41:08.443: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(nm-applet:3771): Gdk-CRITICAL **: 05:41:08.467: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(wrapper-2.0:3802): Gtk-WARNING **: 05:41:08.502: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+** (wrapper-2.0:3801): WARNING **: 05:41:08.511: Binding 'XF86AudioLowerVolume' failed!
+
+(wrapper-2.0:3801): pulseaudio-plugin-WARNING **: 05:41:08.511: Could not have grabbed volume control keys. Is another volume control application (xfce4-volumed) running?
+
+** (wrapper-2.0:3801): WARNING **: 05:41:08.511: Binding 'XF86AudioPlay' failed!
+
+(wrapper-2.0:3801): pulseaudio-plugin-WARNING **: 05:41:08.511: Could not have grabbed multimedia control keys.
+
+(wrapper-2.0:3806): Gtk-WARNING **: 05:41:08.512: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner XfceArrowButton)
+
+(wrapper-2.0:3801): Gtk-WARNING **: 05:41:08.642: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(xfce4-panel:3716): xfce4-panel-CRITICAL **: 05:41:26.463: panel-window.c:2245 (panel_window_active_window_geometry_changed): expression 'WNCK_IS_WINDOW (active_window)' failed.
+
+(xfce4-panel:3716): xfce4-panel-CRITICAL **: 05:41:30.462: panel-window.c:2245 (panel_window_active_window_geometry_changed): expression 'WNCK_IS_WINDOW (active_window)' failed.
+
+(xfce4-panel:3716): xfce4-panel-CRITICAL **: 05:41:32.158: panel-window.c:2245 (panel_window_active_window_geometry_changed): expression 'WNCK_IS_WINDOW (active_window)' failed.
+[3959:3959:0604/054142.367974:ERROR:process_singleton_posix.cc(340)] Failed to create /home/rajgureshreyagm/.config/google-chrome/SingletonLock: File exists (17)
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[4091:4091:0604/054143.542328:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+[4092:4092:0604/054143.542332:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[4198:4198:0604/054145.378368:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[4216:4216:0604/054145.415271:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+Opening in existing browser session.
+Opening in existing browser session.
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[4250:4250:0604/054145.713062:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[4304:4304:0604/054145.861789:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[4324:4324:0604/054146.816839:ERROR:sandbox_linux.cc(376)] InitializeSandbox() called with multiple threads in process gpu-process.
+[3978:4272:0604/054153.381132:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[3978:4272:0604/054153.381157:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+[3978:4272:0604/054153.381164:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+[3978:4272:0604/054153.391572:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[4720:4720:0604/054158.528484:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[4791:4791:0604/054158.733126:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[4812:4812:0604/054158.799497:ERROR:sandbox_linux.cc(376)] InitializeSandbox() called with multiple threads in process gpu-process.
+[4761:8:0604/054158.832397:ERROR:command_buffer_proxy_impl.cc(125)] ContextResult::kTransientFailure: Failed to send GpuControl.CreateCommandBuffer.
+[4681:4737:0604/054201.627094:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[4681:4737:0604/054201.627121:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+[4681:4737:0604/054201.627128:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+[4681:4737:0604/054201.657242:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+[4681:4681:0604/055832.625960:ERROR:interface_endpoint_client.cc(658)] Message 0 rejected by interface blink.mojom.WidgetHost
+[4812:4812:0604/055900.014561:ERROR:gl_utils.cc(318)] [.WebGL-0x3b560010cd00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[4812:4812:0604/055900.461954:ERROR:gl_utils.cc(318)] [.WebGL-0x3b560010cd00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[4812:4812:0604/055901.108731:ERROR:gl_utils.cc(318)] [.WebGL-0x3b560010cd00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[4812:4812:0604/055901.408933:ERROR:gl_utils.cc(318)] [.WebGL-0x3b560010cd00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)
+
+** (xiccd:3780): WARNING **: 06:51:29.872: EDID is empty
+
+** (xiccd:3780): WARNING **: 06:51:29.874: EDID is empty
+
+** (xiccd:3780): WARNING **: 07:16:44.168: EDID is empty
+
+** (xiccd:3780): WARNING **: 07:16:44.327: EDID is empty
+
+** (xiccd:3780): WARNING **: 07:16:44.332: EDID is empty
